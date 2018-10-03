@@ -1,9 +1,13 @@
-.cloud{
+.rain-cloud .cloud{
 	fill:#c7c7c7;
 }
 /*.cloud:hover{
 	fill:#e7e7e7;
 }*/
-.raindrops {
-    fill: #1492e6;
+.rain-cloud .raindrops {
+	fill:rgba(0,0,0,0);
+}
+.rain-cloud:hover .raindrops{
+	fill: #993333;
+
 }
